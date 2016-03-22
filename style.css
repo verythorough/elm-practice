@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+body, input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+}
+
+#site-header {
+  padding: 0.5em 2%;
+  background-color: lightblue;
+  color: midnightblue;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 3em;
+  margin: 0.2em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.content {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+input[name="converters"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  width: 0;
+}
+
+input[name="converters"] + span {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.3em 0.1em;
+  padding: 0.3em 1em 0.4em;
+  background-color: royalblue;
+  border: 0.2em solid royalblue;
+  color: #fff;
+}
+
+input[name="converters"]:focus + span {
+  border-color: midnightblue;
+}
+
+input[name="converters"]:checked + span {
+  background-color: midnightblue;
+  transition: 1s;
+}

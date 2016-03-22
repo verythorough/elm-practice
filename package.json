@@ -1,0 +1,23 @@
+{
+  "name": "elm-practice",
+  "version": "1.0.0",
+  "description": "Simple projects to get familiar with elm syntax and structure",
+  "scripts": {
+    "build": "elm-make StringMod.elm --output elm.js",
+    "watch": "elm-live StringMod.elm --open -- --output=elm.js",
+    "install": "elm-package install --yes && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verythorough/elm-practice.git"
+  },
+  "author": "Jessica Parsons",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/verythorough/elm-practice/issues"
+  },
+  "homepage": "https://github.com/verythorough/elm-practice#readme",
+  "devDependencies": {
+    "elm-live": "2.0.4"
+  }
+}
