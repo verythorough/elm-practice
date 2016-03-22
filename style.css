@@ -5,13 +5,13 @@ body {
 }
 
 body, input {
+  color: midnightblue;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
 }
 
 #site-header {
   padding: 0.5em 2%;
   background-color: lightblue;
-  color: midnightblue;
 }
 
 h1 {
