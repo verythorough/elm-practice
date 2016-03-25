@@ -17,11 +17,16 @@
   <p>Simple projects playing with elm syntax and structures</p>
 </header>
 
+<div id="stringmod" class="module-demo"></div>
+
+<footer id="site-footer">
+  <p>Source code on <a href="https://github.com/verythorough/elm-practice">GitHub</a></p>
+</footer>
+
 </body>
 
 <script type="text/javascript">
-  var app = Elm.fullscreen(Elm.StringMod, {});
-
+Elm.embed(Elm.StringMod, document.getElementById('stringmod'));
 </script>
 
 </html>

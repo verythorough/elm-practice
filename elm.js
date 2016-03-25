@@ -12143,7 +12143,7 @@ Elm.StringMod.make = function (_elm) {
                                  ,A2(ConvertBtn,"Camel","camelCase")
                                  ,A2(ConvertBtn,"UpperCamel","UpperCamelCase")
                                  ,A2(ConvertBtn,"Leet","l337 5p34k")
-                                 ,A2(ConvertBtn,"Studly","StUdLyCaPs")]);
+                                 ,A2(ConvertBtn,"Studly","StUdLy CaPs")]);
    var Convert = function (a) {
       return {ctor: "Convert",_0: a};
    };

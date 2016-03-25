@@ -140,7 +140,7 @@ listConvertBtns =
   , ConvertBtn "Camel" "camelCase"
   , ConvertBtn "UpperCamel" "UpperCamelCase"
   , ConvertBtn "Leet" "l337 5p34k"
-  , ConvertBtn "Studly" "StUdLyCaPs"
+  , ConvertBtn "Studly" "StUdLy CaPs"
   ]
 
 
