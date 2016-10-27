@@ -48,6 +48,7 @@ input[name="converters"] {
   border: 0;
   clip: rect(0 0 0 0);
   width: 0;
+  position: absolute;
 }
 
 input[name="converters"] + span {
