@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/verythorough/elm-practice#readme",
   "devDependencies": {
-    "elm-live": "2.0.4"
+    "elm-live": "2.0.4",
+    "gulp": "^3.9.1",
+    "sw-precache": "^4.2.1",
+    "browser-sync": "^2.7.7"
   }
 }
